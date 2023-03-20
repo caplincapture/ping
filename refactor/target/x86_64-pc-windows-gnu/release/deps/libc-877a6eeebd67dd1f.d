@@ -1,0 +1,12 @@
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/libc-877a6eeebd67dd1f.rmeta: /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/liblibc-877a6eeebd67dd1f.rlib: /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/libc-877a6eeebd67dd1f.d: /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/lib.rs:
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/macros.rs:
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/fixed_width_ints.rs:
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/mod.rs:
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/mod.rs:
+/home/g/.cargo/registry/src/index.crates.io-6f17d22bba15001f/libc-0.2.140/src/windows/gnu/align.rs:

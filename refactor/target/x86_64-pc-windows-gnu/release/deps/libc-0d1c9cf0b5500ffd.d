@@ -1,0 +1,12 @@
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/libc-0d1c9cf0b5500ffd.rmeta: /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/liblibc-0d1c9cf0b5500ffd.rlib: /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/Desktop/ping/refactor/target/x86_64-pc-windows-gnu/release/deps/libc-0d1c9cf0b5500ffd.d: /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/lib.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/macros.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/fixed_width_ints.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/mod.rs /home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/align.rs
+
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/lib.rs:
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/macros.rs:
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/fixed_width_ints.rs:
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/mod.rs:
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/mod.rs:
+/home/g/.cargo/registry/src/github.com-1ecc6299db9ec823/libc-0.2.140/src/windows/gnu/align.rs:
