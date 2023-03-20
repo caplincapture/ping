@@ -1,0 +1,3 @@
+(function() {var implementors = {
+"pretty_hex":[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/nightly/core/clone/trait.Clone.html\" title=\"trait core::clone::Clone\">Clone</a> for <a class=\"struct\" href=\"pretty_hex/struct.HexConfig.html\" title=\"struct pretty_hex::HexConfig\">HexConfig</a>"]]
+};if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
