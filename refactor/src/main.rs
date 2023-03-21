@@ -1,3 +1,4 @@
+use crate::icmp::Request;
 // only one type to import!
 use loadlibrary::Library;
 
@@ -24,7 +25,29 @@ fn main() -> Result<(), Box<dyn Error>> {
         println!("Usage: sup DEST");
         exit(1);
     });
-    icmp::ping(arg.parse()?)?;
+
+    let dest = arg.parse()?;
+    let data = "O Romeo.";
+
+    println!();
+    println!("Pinging {:?} with {} bytes of data:", dest, data.len());
+
+    use std::{thread::sleep, time::Duration};
+
+    for _ in 0..4 {
+        match Request::new(dest).ttl(128).timeout(4000).data(data).send() {
+            Ok(res) => println!(
+                "Reply from {:?}: bytes={} time={:?} TTL={}",
+                res.addr,
+                res.data.len(),
+                res.rtt,
+                res.ttl,
+            ),
+            Err(_) => println!("Something went wrong"),
+        }
+
+        sleep(Duration::from_secs(1));
+    }
 
     Ok(())
 }

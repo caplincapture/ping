@@ -1,8 +1,9 @@
 use std::fmt;
 
-pub struct Addr(pub [u8; 4]);
-
 use std::num::ParseIntError;
+
+#[derive(Clone, Copy)]
+pub struct Addr(pub [u8; 4]);
 
 #[derive(Debug)]
 pub enum ParseAddrError {
