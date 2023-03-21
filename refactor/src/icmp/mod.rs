@@ -37,13 +37,13 @@ impl Request {
             data: None,
         }
     }
-    pub fn send(self) -> Result<Reply, String> {
+    pub fn send(&self) -> Result<Reply, String> {
         let fns = &icmp_sys::FUNCTIONS;
 
         let handle = (fns.IcmpCreateFile)();
 
         let reply_size = size_of::<icmp_sys::IcmpEchoReply>();
-        let reply_buf_size = reply_size + 8 + self.data.unwrap().len();
+        let reply_buf_size = reply_size + 8 + self.data.clone().unwrap().len();
         let mut reply_buf = vec![0u8; reply_buf_size];
 
         let ip_options = icmp_sys::IpOptionInformation {
@@ -57,8 +57,8 @@ impl Request {
         let ret = (fns.IcmpSendEcho)(
             handle,
             self.dest,
-            self.data.unwrap().as_ptr(),
-            self.data.unwrap().len() as u16,
+            self.data.clone().unwrap().as_ptr(),
+            self.data.clone().unwrap().len() as u16,
             Some(&ip_options),
             reply_buf.as_mut_ptr(),
             reply_buf_size as u32,
